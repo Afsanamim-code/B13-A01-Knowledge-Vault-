@@ -7,11 +7,18 @@
 }
 
 
+
+
+
 /** shared style **/
-.font-inter {
+.font-inter { 
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
+
+
+
+
 
 
 /** main style **/
@@ -20,7 +27,13 @@ header {
 }
 
 
+
+
+
+
+
  /* navbar section  */
+
 
 .nav-container {
     max-width: 1600px;
@@ -30,6 +43,10 @@ header {
 }
 
 
+
+
+
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -37,10 +54,19 @@ nav {
 }
 
 
+
+
+
+
 .logo img {
     display: block;
     width: 139px;
 }
+
+
+
+
+
 
 
 .menu {
@@ -50,12 +76,17 @@ nav {
 }
 
 
+
+
+
 .menu a {
     font-size: 16px;
     font-weight: 500;
     color: #000000;
     text-decoration: none;
 }
+
+
 
 
 
@@ -77,12 +108,17 @@ nav {
 
 
 
+
 .btn:hover {
     background-color: lightseagreen;
     transform: translateY(-2px);
 }
 
-                   
+
+
+
+
+
                 
  /* banner section */
 
@@ -102,12 +138,21 @@ nav {
 }
 
 
+
+
+
+
+
+
 .overlay {
     position: absolute;
     inset: 0;
     background: rgba(7, 18, 37, 0.40);
     z-index: 1;
 }
+
+
+
 
 
 
@@ -121,6 +166,11 @@ nav {
     width: 100%;
     margin: 0 auto; 
 }
+
+
+
+
+
 
 
 .badge {
@@ -140,6 +190,9 @@ nav {
 
 
 
+
+
+
 .dot {
     display: inline-block;
     width: 6px;
@@ -149,6 +202,9 @@ nav {
     position: relative;
     z-index: 1;
 }
+
+
+
 
 
 
@@ -167,6 +223,10 @@ nav {
 }
 
 
+
+
+
+
 .dot::after {
     content: "";
     position: absolute;
@@ -181,6 +241,11 @@ nav {
 }
 
 
+
+
+
+
+
 .hero-content h1 {
     color: white;
     font-size: 72px;
@@ -191,9 +256,15 @@ nav {
 }
 
 
+
+
+
+
 .hero-content h1 span {
     color: #30B868;
 }
+
+
 
 
 .hero-content p {
@@ -205,11 +276,19 @@ nav {
 }
 
 
+
+
+
+
+
 .buttons {
     display: flex;
     justify-content: center;
     gap: 16px;
 }
+
+
+
 
 
 
@@ -228,11 +307,19 @@ nav {
 }
 
 
+
+
+
+
+
 .primary-btn {
     color: #FFFFFF;
     background-color: #469165;
     border: none;
 }
+
+
+
 
 
 .primary-btn:hover {
@@ -241,11 +328,19 @@ nav {
 }
 
 
+
+
+
+
+
 .secondary-btn {
     background: transparent;
     color: #FFFFFF;
     border: 1px solid white;
 }
+
+
+
 
 
 
@@ -259,6 +354,151 @@ nav {
 
 
 
+
+
+
+
+/* notes section  */
+
+
+#notes-section {
+    padding: 80px 120px 0;    
+}
+
+
+
+
+
+
+.notes-container {
+   max-width: 1600px;
+   width: 100%;
+   margin: 0 auto;
+}
+
+
+
+
+
+.section-heading {
+    text-align: center;
+    margin-bottom: 44px;
+}
+
+
+
+
+
+
+.section-heading h2 {
+    font-size: 48px;
+    font-weight: 700;
+    color:#001931;
+    text-transform: capitalize;
+    margin-bottom: 16px; 
+}
+
+
+
+
+
+.section-heading p {
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    font-weight: 400;
+}
+
+
+
+
+
+.notes-card {
+    display: flex;
+    gap: 24px;   
+}
+
+
+
+
+
+
+.card {
+    padding:60px 24px;
+    text-align: center;
+    border-radius: 8px;
+    flex: 1;
+    border: none;
+    box-shadow: 0px 1px 13px 5px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+}
+
+
+
+
+
+
+.card:hover {
+    transform: scale(1.05);
+    background-color:lightblue;
+}
+
+
+
+
+
+
+
+.icon-box {
+   height: 60px;
+   width: 60px;
+   margin: 0 auto 30px;
+   border-radius: 50%;
+   background: #ff5a5f;
+   font-size: 24px;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
+
+
+
+
+.icon-box img {
+    height: 27px;
+    width: 27px;
+}
+
+
+
+
+
+
+
+.card h3 {
+    
+    font-weight: 600;
+    font-size: 24px;
+    color: #001931;
+    margin-bottom: 16px;
+    text-transform: capitalize;
+}
+
+
+
+
+
+
+.card p {
+    
+    font-weight: 400;
+    font-size: 16px;
+    color:#627382;
+    line-height: 20px;
+}
 
 
 
